@@ -1,0 +1,111 @@
+
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+**/packages/*
+
+# Entity Framework
+Migrations/
+
+# Rider and VS Code
+.idea/
+.vscode/
+*.code-workspace
+.vs/
+# DotCover
+*.dotCover
+
+# dotnet watch
+**/Properties/launchSettings.json
+
+# Local test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# NCrunch
+.ncrunch*
+*.ncrunchproject
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Microsoft Office temporary files
+~$*
+
+# Mac system files
+.DS_Store
+
+# Logs and crash dumps
+*.log
+*.tlog
+*.pidb
+*.sdf
+*.pdb
+*.mdb
+*.dbmdl
+*.dbmdl.*
+
+# Azure deployment
+.publish/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# SonarQube
+.sonar/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+
+# Backup & temp files
+*.bak
+*.tmp
+*.swp
+*.orig
+
+# Ignore secrets and local config
+appsettings.Development.json
+secrets.json
+
+# Ignore generated docs
+doc/
+docs/_site/
+
+# Ignore test host output
+*.TestAdapter.dll
+*.TestHost.dll
+
+# Ignore artifacts from dotnet pack
+*.symbols.nupkg
+
+# Ignore global tools
+.dotnet-tools.json
